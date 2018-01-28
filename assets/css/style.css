@@ -1,46 +1,46 @@
-/* * ---------------------------------------------------------------------------------------- 
-Author : MonisterThemes 
-Template Name: Unifox - OnePage Responsive Parallax 
-Version : 1.0 
+/* * ----------------------------------------------------------------------------------------
+Author : MonisterThemes
+Template Name: Unifox - OnePage Responsive Parallax
+Version : 1.0
 
 * ---------------------------------------------------------------------------------------- */
-/* * ---------------------------------------------------------------------------------------- * 
+/* * ---------------------------------------------------------------------------------------- *
 
 // Table of contents
 
 01.General styles
- -section -preloader 
- -scroll up 
- 02. Homepage Styles 
- -Animated Text 
- -Parallax Area 
- -YouTube Area 
- -Gradient Area 
- -particles 
- -Comming soon 
- -Slider Area 
- 03. About us Area 
- 04.Services Area 
- 05.Facts Area 
- 06.Portfolio Area 
- 07.Skill Area 
- 08.Pricing Area 
- 09.Team Area 
- 10.Call To Action Area 
- 11.Why Choose us Area 
- 12.Testimonial Area 
- 12.Blog Area 
- -single blog 
- 13.Twitter Feed Area 
- 13.Start Project 
- 13.Contact Area 
- 14.google map 
- 15.Footer Top Area 
+ -section -preloader
+ -scroll up
+ 02. Homepage Styles
+ -Animated Text
+ -Parallax Area
+ -YouTube Area
+ -Gradient Area
+ -particles
+ -Comming soon
+ -Slider Area
+ 03. About us Area
+ 04.Services Area
+ 05.Facts Area
+ 06.Portfolio Area
+ 07.Skill Area
+ 08.Pricing Area
+ 09.Team Area
+ 10.Call To Action Area
+ 11.Why Choose us Area
+ 12.Testimonial Area
+ 12.Blog Area
+ -single blog
+ 13.Twitter Feed Area
+ 13.Start Project
+ 13.Contact Area
+ 14.google map
+ 15.Footer Top Area
  15.Footer Bottom Area
- 
+
  * * ---------------------------------------------------------------------------------------- */
 /*----------------------------------------------------*/
-/* 01.General Styles 
+/* 01.General Styles
 /*----------------------------------------------------*/
  body {
      height: 100%;
@@ -49,7 +49,7 @@ Version : 1.0
      font-family: 'Open Sans', sans-serif;
 }
  html, body {
-     height: 100% 
+     height: 100%
 }
  h1, h2, h3, h4, h5, h6 {
      font-family: 'Raleway', sans-serif;
@@ -197,21 +197,21 @@ Version : 1.0
 }
  @-webkit-keyframes sk-rotate {
      100% {
-         -webkit-transform: rotate(360deg) 
+         -webkit-transform: rotate(360deg)
     }
 }
  @keyframes sk-rotate {
      100% {
          transform: rotate(360deg);
-         -webkit-transform: rotate(360deg) 
+         -webkit-transform: rotate(360deg)
     }
 }
  @-webkit-keyframes sk-bounce {
      0%, 100% {
-         -webkit-transform: scale(0.0) 
+         -webkit-transform: scale(0.0)
     }
      50% {
-         -webkit-transform: scale(1.0) 
+         -webkit-transform: scale(1.0)
     }
 }
  @keyframes sk-bounce {
@@ -225,7 +225,7 @@ Version : 1.0
     }
 }
 /*----------------------------------------------------*/
-/* 02.Homepage Styles 
+/* 02.Homepage Styles
 /*----------------------------------------------------*/
  .header-top-area {
      position: fixed;
@@ -630,7 +630,7 @@ Version : 1.0
      z-index: 2;
 }
 /*----------------------------------------------------*/
-/* 03.About Us Area 
+/* 03.About Us Area
 /*----------------------------------------------------*/
  .about-text h2 {
      margin-bottom: 18px;
@@ -701,7 +701,7 @@ Version : 1.0
      transform: scaleX(1);
 }
 /*----------------------------------------------------*/
-/* 04.Services Area 
+/* 04.Services Area
 /*----------------------------------------------------*/
  .services-area{
     padding-top:80px;
@@ -738,7 +738,7 @@ Version : 1.0
      margin-bottom: 30px;
 }
 /*----------------------------------------------------*/
-/* 05.Facts Area 
+/* 05.Facts Area
 /*----------------------------------------------------*/
  .single-fact {
      margin-bottom: 30px;
@@ -789,7 +789,7 @@ Version : 1.0
      text-transform: capitalize;
 }
 /*----------------------------------------------------*/
-/* 01.Portfolio Area 
+/* 01.Portfolio Area
 /*----------------------------------------------------*/
  .portfolio-filter-list {
      text-align: center;
@@ -924,7 +924,7 @@ Version : 1.0
      transition-delay: 0.2s;
 }
 /*----------------------------------------------------*/
-/* 07.Skill Area 
+/* 07.Skill Area
 /*----------------------------------------------------*/
  .skill-area {
      background: rgba(0, 0, 0, 0) url("../images/bg/skill-bg.jpg") repeat fixed center top / cover ;
@@ -1103,7 +1103,7 @@ Version : 1.0
     }
 }
 /*----------------------------------------------------*/
-/* 08.Prices Area 
+/* 08.Prices Area
 /*----------------------------------------------------*/
  .single-prices{
      position:relative;
@@ -1204,7 +1204,7 @@ Version : 1.0
     color:#fff;
 }
 /*----------------------------------------------------*/
-/* 09.Team Area 
+/* 09.Team Area
 /*----------------------------------------------------*/
 .team-member-info > h2 {
   color: #000;
@@ -1303,7 +1303,7 @@ Version : 1.0
      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 /*----------------------------------------------------*/
-/* 10.Call Action Area 
+/* 10.Call Action Area
 /*----------------------------------------------------*/
  .call-ac-text {
      text-align: center;
@@ -1358,7 +1358,7 @@ Version : 1.0
 	color: #fff;
 }
 /*----------------------------------------------------*/
-/* 11.Call Action Area 
+/* 11.Call Action Area
 /*----------------------------------------------------*/
  .tab-content {
      background: #fff none repeat scroll 0 0;
@@ -1461,7 +1461,7 @@ Version : 1.0
      width: 40px;
 }
 /*----------------------------------------------------*/
-/* 12.Testimonial Area 
+/* 12.Testimonial Area
 /*----------------------------------------------------*/
  .testimonial-image img {
      border: 5px solid #ddd;
@@ -1489,7 +1489,7 @@ Version : 1.0
      color: #f2b100;
 }
  .testimonial-area {
-     background: rgba(0, 0, 0, 0) url("../images/bg/client-say-bg.jpg") repeat scroll 0 0 / cover ;
+     background: rgba(0, 0, 0, 0) url("../images/bg/mama.jpg") repeat scroll 0 0 / cover ;
      position: relative;
      z-index: 1;
 }
@@ -1538,7 +1538,7 @@ Version : 1.0
      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 /*----------------------------------------------------*/
-/* 13.Blog Area 
+/* 13.Blog Area
 /*----------------------------------------------------*/
  .blog-area {
      padding-bottom: 50px;
@@ -1615,7 +1615,7 @@ Version : 1.0
 }
  .single-blog:hover .blog-content h2 {
      color: #7cb62f;
-     transition: .3s 
+     transition: .3s
 }
  .view-more.blog {
      margin-top: 30px;
@@ -1901,7 +1901,7 @@ Version : 1.0
      margin-bottom: 0;
 }
 /*----------------------------------------------------*/
-/* 14.Twitter Feed Area 
+/* 14.Twitter Feed Area
 /*----------------------------------------------------*/
  .twitter-feed-area {
      background: rgba(0, 0, 0, 0) url("../images/bg/twitter-feed-bg.jpg") repeat scroll right center / cover ;
@@ -1959,7 +1959,7 @@ Version : 1.0
      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 /*----------------------------------------------------*/
-/* 15.Start Project Area 
+/* 15.Start Project Area
 /*----------------------------------------------------*/
 .start-your-project-area {
   background: #7eb831 none repeat scroll 0 0;
@@ -2011,7 +2011,7 @@ Version : 1.0
      transform: translateY(5px);
 }
 /*----------------------------------------------------*/
-/* 16.Conatct Area 
+/* 16.Conatct Area
 /*----------------------------------------------------*/
  .contact-form .form-control {
      border: 1px solid #ddd;
@@ -2107,7 +2107,7 @@ Version : 1.0
     margin-bottom: 15px;
 }
 /*----------------------------------------------------*/
-/* 17.Google Map 
+/* 17.Google Map
 /*----------------------------------------------------*/
  .map {
      height: 450px;
@@ -2115,7 +2115,7 @@ Version : 1.0
      overflow: hidden;
 }
 /*----------------------------------------------------*/
-/* 18.Footer Top Area 
+/* 18.Footer Top Area
 /*----------------------------------------------------*/
  .footer-top-area {
      background: #343434 none repeat scroll 0 0;
@@ -2238,7 +2238,7 @@ Version : 1.0
      text-shadow: 0px 0px #9f191e, 1px 1px #9f191e, 2px 2px #9f191e, 3px 3px #9f191e, 4px 4px #9f191e, 5px 5px #9f191e, 6px 6px #9f191e, 7px 7px #9f191e, 8px 8px #9f191e, 9px 9px #9f191e, 10px 10px #9f191e, 11px 11px #9f191e, 12px 12px #9f191e, 13px 13px #9f191e, 14px 14px #9f191e, 15px 15px #9f191e, 16px 16px #9f191e, 17px 17px #9f191e, 18px 18px #9f191e, 19px 19px #9f191e, 20px 20px #9f191e, 21px 21px #9f191e, 22px 22px #9f191e, 23px 23px #9f191e, 24px 24px #9f191e, 25px 25px #9f191e, 26px 26px #9f191e, 27px 27px #9f191e, 28px 28px #9f191e, 29px 29px #9f191e, 30px 30px #9f191e;
 }
 /*----------------------------------------------------*/
-/* 19.Footer Bottom Area 
+/* 19.Footer Bottom Area
 /*----------------------------------------------------*/
  .footer-bottom-area {
      background: #232323 none repeat scroll 0 0;
@@ -2317,4 +2317,3 @@ Version : 1.0
  .template-demo-title span {
      color: #b2ec65;
 }
- 

@@ -48,6 +48,12 @@ Version : 1.0
      font-weight: 300;
      font-family: 'Open Sans', sans-serif;
 }
+.logo img {
+  float: left;
+  width: 110px;
+  height: 100px;
+  background: #555;
+}
  html, body {
      height: 100%
 }

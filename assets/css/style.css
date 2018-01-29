@@ -73,6 +73,7 @@ Version : 1.0
   background: #3B5998;
   color: white;
 }
+
  body {
      height: 100%;
      font-size: 14px;
@@ -153,7 +154,7 @@ Version : 1.0
      width: 150px;
 }
  .section-title h2:before {
-     background: #7cb62f none repeat scroll 0 0;
+     background: #F28500 none repeat scroll 0 0;
      content: "";
      height: 5px;
      left: 50%;
@@ -217,13 +218,13 @@ Version : 1.0
      display: inline-block;
      position: absolute;
      top: 0;
-     background-color: #7cb62f;
+     background-color: #F28500;
      border-radius: 100%;
      -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
      animation: sk-bounce 2.0s infinite ease-in-out;
 }
  .dot1 {
-     background-color: #7cb62f;
+     background-color: #F28500;
 }
  .dot2 {
      top: auto;
@@ -291,7 +292,7 @@ Version : 1.0
  .mainmenu .navbar-nav li a {
      color: #fff;
      text-transform: uppercase;
-     font-size: 13px;
+     font-size: 20px;
      padding-top: 70px;
      padding-bottom: 30px;
      padding-right: 0;
@@ -299,14 +300,15 @@ Version : 1.0
      -webkit-transition: .3s;
      transition: .3s;
      font-weight: 400;
+     font-style: italic;
 }
 .menu-strick-bg .mainmenu .navbar-nav li.active a{
-	color: #7cb62f;
+	color: #F28500;
 	transition:.3s;
 }
  .mainmenu .navbar-nav li a:hover {
      background: none;
-     color: #7cb62f;
+     color: #F28500;
      -webkit-transition: all 0.3s ease-out;
      transition: all 0.3s ease-out;
 }
@@ -341,7 +343,7 @@ Version : 1.0
      transition: all 0.3s ease 0s;
 }
  .menu-strick-bg .mainmenu .navbar-nav li a:hover {
-     color: #7cb62f;
+     color: #F28500;
 }
  a.slide-btn {
      background-color: #252525;
@@ -362,7 +364,7 @@ Version : 1.0
      width: 175px;
 }
  a.slide-btn:before {
-     background: #7cb62f none repeat scroll 0 0;
+     background: #F28500 none repeat scroll 0 0;
      border-radius: 4px;
      bottom: 0;
      content: "";
@@ -551,7 +553,7 @@ Version : 1.0
      display: block;
 }
  .countdown_section {
-     color: #7cb62f;
+     color: #F28500;
      text-align: center;
      text-transform: capitalize;
      display: inline-block;
@@ -698,7 +700,7 @@ Version : 1.0
      padding: 12px 25px;
      text-transform: capitalize;
      font-size: 14px;
-     background-color: #7cb62f;
+     background-color: #F28500;
      font-weight: 600;
      letter-spacing: 1px;
      -webkit-transform: perspective(1px) translateZ(0);
@@ -756,7 +758,7 @@ Version : 1.0
      margin-bottom:30px;
 }
  .single-service span {
-     background: #75a733 none repeat scroll 0 0;
+     background: #F28500 none repeat scroll 0 0;
      border: 3px solid #e3e3e3;
      border-radius: 50%;
      color: #fff;
@@ -847,14 +849,14 @@ Version : 1.0
      width:100px;
 }
  .portfolio-filter-list ul li:hover {
-     background: #7cb62f none repeat scroll 0 0;
+     background: #F28500 none repeat scroll 0 0;
      color: #fff;
 }
  .portfolio-list .mix {
      display: none;
 }
  .portfolio-filter-list .filter.active {
-     background: #7cb62f none repeat scroll 0 0;
+     background: #F28500 none repeat scroll 0 0;
      color: #fff;
      transition: .3s;
 }
@@ -941,7 +943,7 @@ Version : 1.0
     color:#fff;
 }
  .portfolio-icon span:hover{
-    color:#7cb62f;
+    color:#F28500;
 }
  .single-portfolio-item:hover .portfolio-overlay {
      opacity: 1;
@@ -1194,7 +1196,7 @@ Version : 1.0
      width: 100%;
 }
  button.prices-btn:before {
-     background: #7cb62f;
+     background: #F28500;
      bottom: 0;
      content: "";
      left: 0;
@@ -1298,7 +1300,7 @@ Version : 1.0
      width: 100%;
 }
  .team-social-profiles:before {
-     background: #7cb62f;
+     background: #F28500;
      bottom: 0;
      content: "";
      left: 0;
@@ -1333,7 +1335,7 @@ Version : 1.0
      color: #dadada;
 }
  .team-list.owl-carousel .owl-page.active span, .team-list.owl-controls.clickable .owl-page:hover span {
-     background: #7cb62f;
+     background: #F28500;
      filter: Alpha(Opacity=100);
     /*IE7 fix*/
      opacity: 1;
@@ -1376,7 +1378,7 @@ Version : 1.0
 }
 
 .ct-btn {
- background: #7cb62f none repeat scroll 0 0;
+ background: #F28500 none repeat scroll 0 0;
  color: #fff;
  display: inline-block;
  padding: 12px 20px;
@@ -1391,7 +1393,7 @@ Version : 1.0
 
 .ct-btn:hover{
 	background: transparent;
-	border-color: #7cb62f;
+	border-color: #F28500;
 	color: #fff;
 }
 /*----------------------------------------------------*/
@@ -1435,7 +1437,7 @@ Version : 1.0
 }
  .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus{
      border: none;
-     background:#7cb62f;
+     background:#F28500;
      color:#fff;
 }
  .nav-tabs .nav li a:focus, .nav-tabs .nav li a:hover{
@@ -1452,7 +1454,7 @@ Version : 1.0
      margin-right: 0;
 }
  .nav.nav-tabs li a:hover{
-     background: #7cb62f;
+     background: #F28500;
      color: #fff;
      transition: .3s;
      border: none;
@@ -1568,7 +1570,7 @@ Version : 1.0
      color: #dadada;
 }
  .testimonial-list.owl-carousel .owl-page.active span, .testimonial-list.owl-controls.clickable .owl-page:hover span {
-     background: #7cb62f;
+     background: #F28500;
      filter: Alpha(Opacity=100);
     /*IE7 fix*/
      opacity: 1;
@@ -1607,7 +1609,7 @@ Version : 1.0
      text-align: center;
 }
  a.blog_btn {
-     background-color: #7cb62f;
+     background-color: #F28500;
      box-shadow: 0 0 1px transparent;
      color: #fff;
      display: inline-block;
@@ -1651,7 +1653,7 @@ Version : 1.0
      transform: scaleX(1);
 }
  .single-blog:hover .blog-content h2 {
-     color: #7cb62f;
+     color: #F28500;
      transition: .3s
 }
  .view-more.blog {
@@ -1670,7 +1672,7 @@ Version : 1.0
      margin-bottom: 5px;
 }
  .blog-meta span i.fa {
-     color: #7cb62f;
+     color: #F28500;
 }
 /*Single Blog*/
  header.single-blog-post {
@@ -1709,7 +1711,7 @@ Version : 1.0
 }
  .sidebar-title {
      background: #333 none repeat scroll 0 0;
-     border-left: 4px solid #7cb62f;
+     border-left: 4px solid #F28500;
      padding-bottom: 15px;
      padding-left: 10px;
      padding-top: 15px;
@@ -1724,7 +1726,7 @@ Version : 1.0
      transition:.3s;
 }
  .single-rec-blog-post h2:hover {
-     color:#7cb62f;
+     color:#F28500;
      transition:.3s;
 }
  .Sidebar-recent-post-list.clerfix {
@@ -1755,7 +1757,7 @@ Version : 1.0
      transition:.3s;
 }
  .search-box span:hover{
-     color:#7cb62f;
+     color:#F28500;
      transition:.3s;
 }
  .sidebar-cat-list.clerfix {
@@ -1774,7 +1776,7 @@ Version : 1.0
      transition:.3s;
 }
  .sidebar-cat-list.clerfix a:hover{
-     color:#7cb62f;
+     color:#F28500;
      transition:.3s;
 }
  .sidebar-cat-list.clerfix {
@@ -1807,7 +1809,7 @@ Version : 1.0
      text-transform: capitalize;
 }
  .sidebar-archived-post a:hover{
-     color: #7cb62f;
+     color: #F28500;
 }
  .sidebar-archived-post .sidebar-archived-post li {
      display: block;
@@ -1839,7 +1841,7 @@ Version : 1.0
      text-align: center;
 }
  .sidebar-post-tags a:hover{
-     background:#7cb62f;
+     background:#F28500;
      color:#fff;
 }
  .commenter-image img {
@@ -1929,7 +1931,7 @@ Version : 1.0
      background: #fff;
 }
  blockquote {
-     border-left: 5px solid #7cb62f;
+     border-left: 5px solid #F28500;
      font-size: 16px;
      margin: 0 0 20px;
      padding: 10px 20px;
@@ -1964,7 +1966,7 @@ Version : 1.0
   text-transform: capitalize;
 }
  .single-twitter-feed span {
-     color: #7cb62f;
+     color: #F28500;
      cursor: pointer;
 }
  .feed-icon {
@@ -1989,7 +1991,7 @@ Version : 1.0
      color: #dadada;
 }
  .twitter-feed-list.owl-carousel .owl-page.active span, .twitter-feed-list.owl-controls.clickable .owl-page:hover span {
-     background: #7cb62f;
+     background: #F28500;
      filter: Alpha(Opacity=100);
     /*IE7 fix*/
      opacity: 1;
@@ -2070,7 +2072,7 @@ Version : 1.0
      transition-duration: 0.3s;
      transition-property: color;
      vertical-align: middle;
-     background: #7cb62f none repeat scroll 0 0;
+     background: #F28500 none repeat scroll 0 0;
      border: medium none;
      color: #fff;
      padding: 13px 20px;
@@ -2107,7 +2109,7 @@ Version : 1.0
      text-transform: capitalize;
 }
 .address-info-text span {
-  border: 1px solid #7cb62f;
+  border: 1px solid #F28500;
   border-radius: 50%;
   color: #333;
   display: inline-block;
@@ -2210,7 +2212,7 @@ Version : 1.0
   padding-right: 8px;
 }
  .footer-recent-post a:hover{
-     color: #7cb62f;
+     color: #F28500;
      transition:.3s;
 }
  .footer-recent-post a:hover .footer-recent-post span{
@@ -2228,7 +2230,7 @@ Version : 1.0
   transition: all 0.3s ease 0s;
 }
  .populer-search li:hover{
-     background: #7cb62f;
+     background: #F28500;
      color: #fff;
      transition: .3s;
 }
@@ -2335,7 +2337,7 @@ Version : 1.0
      color: #fff;
 }
  .single-demo:hover h2{
-     color:#7cb62f;
+     color:#F28500;
      transition:.3s;
 }
  .template-demo-title {
